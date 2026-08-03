@@ -1,0 +1,14 @@
+# See https://github.com/github/linguist
+# Generated on 2026-11-06
+public/index.html linguist-vendored
+build/* linguist-vendored
+*.yml linguist-detectable=false
+
+*.map linguist-generated
+*.woff binary
+*.min.js linguist-generated
+Cargo.lock linguist-generated
+src/**/*.tsx linguist-detectable
+
+node_modules/* linguist-vendored
+public/*.html linguist-vendored
